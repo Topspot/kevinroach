@@ -760,6 +760,7 @@ a:hover, a:focus {
   background: #0b3977;
 }*/
 /* Float */
+
 .float {
     display: inline-block;
     -webkit-transition-duration: 0.3s;
