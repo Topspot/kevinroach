@@ -1486,6 +1486,10 @@
 
 }
 @media (min-width: 200px) and (max-width: 599px) {
+
+.address-div-outer {
+    width: 100%;
+}    
     .title-box-borders{
     border-left:0px solid #c7a543;border-right:0px solid white;
 }
@@ -1565,6 +1569,7 @@
         float: left !important;
         text-align: center;
         width: 36% !important;
+        margin-top: 3px !important
     }
     .address {
         float: left !important;

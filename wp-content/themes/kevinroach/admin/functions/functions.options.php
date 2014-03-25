@@ -376,11 +376,32 @@ if (!function_exists('of_options')) {
             "id" => "address1",
             "std" => "",
             "type" => "text");
+           $of_options[] = array("name" => "Latitude Address 1",
+            "desc" => "Isert your Latitude.It will be used for google map & header",
+            "id" => "latitude_address1",
+            "std" => "",
+            "type" => "text");
+          $of_options[] = array("name" => "Longitude Address 1",
+            "desc" => "Isert your Longitude.It will be used for google map & header",
+            "id" => "longitude_address1",
+            "std" => "",
+            "type" => "text"); 
+        
         $of_options[] = array("name" => "Address 2",
             "desc" => "Isert your address.It will be used for google map & header",
             "id" => "address2",
             "std" => "",
             "type" => "text");
+         $of_options[] = array("name" => "Latitude Address 2",
+            "desc" => "Isert your Latitude.It will be used for google map & header",
+            "id" => "latitude_address2",
+            "std" => "",
+            "type" => "text");
+          $of_options[] = array("name" => "Longitude Address 2",
+            "desc" => "Isert your Longitude.It will be used for google map & header",
+            "id" => "longitude_address2",
+            "std" => "",
+            "type" => "text"); 
         $of_options[] = array("name" => "Phone Heading",
             "desc" => "Dispaly above the phone numbers",
             "id" => "phone_heading",

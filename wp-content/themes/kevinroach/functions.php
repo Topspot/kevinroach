@@ -86,7 +86,7 @@ add_filter('excerpt_length', 'excerpt_length');
 
 function excerpt_more($more) {
     global $post;
-    return '… <a href="' . get_permalink($post->ID) . '" class="read-more-link">' . '' . __('read more', 'law-firm') . ' &rarr;' . '</a>';
+    return '… <a href="' . get_permalink($post->ID) . '" class="read-more-link">' . '' . __('Read More', 'law-firm') . ' &rarr;' . '</a>';
 }
 
 add_filter('excerpt_more', 'excerpt_more');
