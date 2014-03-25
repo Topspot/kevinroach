@@ -609,6 +609,9 @@
       padding-left: 5px;
       padding-right: 0px;
 }
+#inner-contact .contact-page{
+    width: 310px;
+}
 .test-word{
     border-left:none;
 }
@@ -1489,7 +1492,11 @@
 
 .address-div-outer {
     width: 100%;
+    padding-left: 0px;
 }    
+.address-div-left-content{
+    padding-left: 0px;
+}
     .title-box-borders{
     border-left:0px solid #c7a543;border-right:0px solid white;
 }
