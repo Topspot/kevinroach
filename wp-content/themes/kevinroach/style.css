@@ -680,7 +680,7 @@ a:hover, a:focus {
     border-bottom: 4px solid #000;
     border-left: 0px;
     border-right:0px;
-    color: #fff;
+    color: #fff !important;
 }
 
 .book-cont{
